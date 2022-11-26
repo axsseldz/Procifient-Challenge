@@ -1,7 +1,14 @@
 import './MainContent.css';
 
-export default function MainContent(props) {
+export default function MainContent(props) {       // Function that returns the application Main Content
     return (
+
+        /*
+
+        The main tag is in charge of storing
+        the box with the product and the buttons
+
+        */
         <main>
             <div className='mainContent-box'>
                 <img src={props.icon} />
