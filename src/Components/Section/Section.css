@@ -1,3 +1,37 @@
-.section {
-    background-color: blue;
+.section-container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-text-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 717px;
+    height: 104px;
+}
+
+.first-text-section {
+    font-family: 'Poppins';
+    font-size: 48px;
+    line-height: 50px;
+    color: #06170B;
+}
+
+.second-text-section-container {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 66px;
+}
+
+.second-text-section {
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #666666;
 }

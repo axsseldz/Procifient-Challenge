@@ -13,7 +13,9 @@
     height: 138px;
 }
 
-p {
+
+.first-text-nav {
+    margin-left: 504px;
     margin-right: 60px;
     font-family: 'Poppins';
     font-style: normal;
@@ -23,6 +25,35 @@ p {
     color: #FFFFFF;
 }
 
-.first-text {
-    margin-left: 504px;
+.second-text-nav {
+    margin-right: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.third-text-nav {
+    margin-right: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+.fourth-text-nav {
+    margin-right: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+
 }

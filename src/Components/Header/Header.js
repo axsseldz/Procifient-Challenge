@@ -3,8 +3,11 @@ import './Header.css';
 export default function Header() {                  //Function that returns the application Header 
     return (
 
-        /* Header container where we store the Nav container.
-           Inside the container Nav we're storing the content (Icon and text)
+        /* 
+
+        The header container where we store the Nav container.
+        Inside the container Nav we're storing the content (Icon and text).
+        
         */
         <header className='header-container'>
             <nav className='header-nav'>
@@ -12,10 +15,10 @@ export default function Header() {                  //Function that returns the 
                     className='header-nav-icon'
                     src='Icons/cil_house.png'
                 />
-                <p className='first-text'>How We Work</p>
-                <p>Services</p>
-                <p>Free Quote</p>
-                <p>Contact</p>
+                <p className='first-text-nav'>How We Work</p>
+                <p className='second-text-nav'>Services</p>
+                <p className='third-text-nav'>Free Quote</p>
+                <p className='fourth-text-nav'>Contact</p>
             </nav>
         </header>
     )
