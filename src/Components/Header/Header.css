@@ -1,3 +1,28 @@
-.header {
-    background-color: red;
+.header-container {
+    background-color: #FD9255;
+    height: 196px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    width: 1145px;
+    height: 138px;
+}
+
+p {
+    margin-right: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.first-text {
+    margin-left: 504px;
 }
