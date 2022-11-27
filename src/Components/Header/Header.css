@@ -48,7 +48,6 @@
 }
 
 .fourth-text-nav {
-    margin-right: 60px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -56,4 +55,87 @@
     line-height: 30px;
     color: #FFFFFF;
 
+}
+
+
+
+
+
+
+
+
+/*
+
+       RESPONSIVE: TABLET
+
+*/
+@media (max-width: 1200px) {
+    .header-container {
+        background-color: #FD9255;
+        height: 196px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+        width: 980px;
+        height: 138px;
+
+    }
+
+
+    .first-text-nav {
+        margin-left: 410px;
+        margin-right: 40px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+}
+
+
+
+
+
+
+/*
+
+       RESPONSIVE: SMARTPHONE
+
+*/
+@media (max-width: 1000px) {
+    .header-container {
+        background-color: #FD9255;
+        height: 196px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+        width: 900px;
+        height: 138px;
+    }
+
+
+    .first-text-nav {
+        margin-left: 300px;
+        margin-right: 40px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
 }

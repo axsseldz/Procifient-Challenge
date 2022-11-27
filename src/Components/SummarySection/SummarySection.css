@@ -15,6 +15,7 @@
     background: #FFFFFF;
     border: 2px solid #FD9255;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .summarySection-second-button {
@@ -23,6 +24,7 @@
     width: 222.21px;
     height: 61.16px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .summarySection-summary-section {

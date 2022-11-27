@@ -23,7 +23,6 @@
 }
 
 
-
 .button-1 {
     box-sizing: border-box;
     width: 41.35px;
@@ -34,6 +33,7 @@
     margin-top: 20px;
     font-size: 35px;
     color: rgba(0, 0, 0, 0.54);
+    cursor: pointer;
 }
 
 .button-2 {
@@ -46,6 +46,7 @@
     margin-top: 20px;
     font-size: 35px;
     color: rgba(0, 0, 0, 0.54);
+    cursor: pointer;
 }
 
 .number {
@@ -58,4 +59,45 @@
     border: 1px solid #E2E2E2;
     font-family: 'Poppins';
     font-size: 20px;
+}
+
+
+
+@media (max-width: 1650px) {
+    .button-1 {
+        box-sizing: border-box;
+        width: 41.35px;
+        height: 70px;
+        background: #E2E2E2;
+        border: 1px solid #E2E2E2;
+        border-radius: 5px 0px 0px 5px;
+        margin-top: 20px;
+        font-size: 35px;
+        color: rgba(0, 0, 0, 0.54);
+    }
+
+    .button-2 {
+        box-sizing: border-box;
+        width: 41.35px;
+        height: 70px;
+        background: #E2E2E2;
+        border: 1px solid #E2E2E2;
+        border-radius: 0px 5px 5px 0px;
+        margin-top: 20px;
+        font-size: 35px;
+        color: rgba(0, 0, 0, 0.54);
+    }
+
+    .number {
+        text-align: center;
+        padding-top: 18px;
+        box-sizing: border-box;
+        width: 137.29px;
+        height: 70px;
+        background: #FFFFFF;
+        border: 1px solid #E2E2E2;
+        font-family: 'Poppins';
+        font-size: 20px;
+    }
+
 }
