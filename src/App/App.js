@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from '../Components/Header/Header';
 import Section from '../Components/Section/Section';
 import MainContent from '../Components/MainContent/MainContent';
+import SummarySection from '../Components/SummarySection/SummarySection';
 import Footer from '../Components/Footer/Footer';
 import { Data } from '../Data';
 import './App.css';
@@ -31,6 +32,7 @@ export default function App() {
       <main className='app-main'>
         {main_content}
       </main>
+      <SummarySection summary={summary} setSummary={setSummary} />
       <Footer />
     </div>
   );
