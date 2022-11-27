@@ -2,19 +2,19 @@
 
 
 ## Header
-<img src='Images/header'/>
+<img src='Images/header.png'/>
 
 
 ## Main Content
-<img src='Images/header'/>
+<img src='Images/main-content.png'/>
 
 
 ## Summary Section
-<img src='Images/header'/>
+<img src='Images/summary-section.png'/>
 
 
 ## Footer
-<img src='Images/header'/>
+<img src='Images/footer.png'/>
 
 
 ## Get Started
