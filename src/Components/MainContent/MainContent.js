@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './MainContent.css';
 
-export default function MainContent({ icon, name, squareMeter, setSummary }) { // Function that returns the application Main Content
+export default function MainContent({ icon, name, squareMeter, setSummary, setTotalItems }) { // Function that returns the application Main Content
     const [state, setState] = useState(0)
+
 
     // Here we calculate the summary value depending on the Square Meter value
     const handleSubtraction = () => {
@@ -12,7 +13,11 @@ export default function MainContent({ icon, name, squareMeter, setSummary }) { /
         setSummary(preVal => {
             return preVal - squareMeter
         })
+        setTotalItems(preVal => {
+            return preVal - 1
+        })
     }
+
 
 
     // Here we calculate the summary value depending on the Square Meter value
@@ -23,7 +28,13 @@ export default function MainContent({ icon, name, squareMeter, setSummary }) { /
         setSummary(preVal => {
             return preVal + squareMeter
         })
+        setTotalItems(preVal => {
+            return preVal + 1
+        })
     }
+
+
+
 
     return (
 
